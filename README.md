@@ -2,7 +2,7 @@
 
 NLP-powered web app that classifies text into 7 mental health categories using Machine Learning.
 
-🔗 **Live Demo:** [Click here](your-streamlit-link-here)
+🔗 **Live Demo:** [Click here](https://mindscan-ai.streamlit.app/)
 
 ---
 
