@@ -1,0 +1,36 @@
+status,length_bucket,count
+Anxiety,Very short (<50),211
+Anxiety,Short (50-150),284
+Anxiety,Medium (150-300),174
+Anxiety,Long (300-600),73
+Anxiety,Very long (600+),26
+Bipolar,Very short (<50),76
+Bipolar,Short (50-150),259
+Bipolar,Medium (150-300),154
+Bipolar,Long (300-600),60
+Bipolar,Very long (600+),7
+Depression,Very short (<50),731
+Depression,Short (50-150),1145
+Depression,Medium (150-300),765
+Depression,Long (300-600),347
+Depression,Very long (600+),93
+Normal,Very short (<50),2975
+Normal,Short (50-150),253
+Normal,Medium (150-300),10
+Normal,Long (300-600),0
+Normal,Very long (600+),0
+Personality disorder,Very short (<50),45
+Personality disorder,Short (50-150),63
+Personality disorder,Medium (150-300),77
+Personality disorder,Long (300-600),25
+Personality disorder,Very long (600+),5
+Stress,Very short (<50),70
+Stress,Short (50-150),339
+Stress,Medium (150-300),70
+Stress,Long (300-600),34
+Stress,Very long (600+),4
+Suicidal,Very short (<50),672
+Suicidal,Short (50-150),794
+Suicidal,Medium (150-300),431
+Suicidal,Long (300-600),188
+Suicidal,Very long (600+),45

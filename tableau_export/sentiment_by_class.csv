@@ -1,0 +1,22 @@
+status,sentiment_bucket,count
+Anxiety,Negative,531
+Anxiety,Neutral,15
+Anxiety,Positive,222
+Bipolar,Negative,294
+Bipolar,Neutral,15
+Bipolar,Positive,247
+Depression,Negative,2068
+Depression,Neutral,66
+Depression,Positive,947
+Normal,Negative,799
+Normal,Neutral,1073
+Normal,Positive,1366
+Personality disorder,Negative,119
+Personality disorder,Neutral,6
+Personality disorder,Positive,90
+Stress,Negative,317
+Stress,Neutral,8
+Stress,Positive,192
+Suicidal,Negative,1575
+Suicidal,Neutral,70
+Suicidal,Positive,485
