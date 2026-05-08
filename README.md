@@ -1,22 +1,20 @@
 # 🧬 MindScan AI — Mental Health Text Classifier
 
-A machine learning powered web application that classifies 
-text into 7 mental health categories using NLP techniques.
+NLP-powered web app that classifies text into 7 mental health categories using Machine Learning.
 
 🔗 **Live Demo:** [Click here](your-streamlit-link-here)
 
 ---
 
-## What it does
+##  What it does
 
-Input any text → Model predicts mental health category with confidence score
+Input any text and the model predicts the mental health category with confidence score.
 
-**7 Categories:** Normal | Depression | Anxiety | Suicidal | 
-Stress | Bipolar | Personality Disorder
+**7 Categories:** Normal | Depression | Anxiety | Suicidal | Stress | Bipolar | Personality Disorder
 
 ---
 
-## Model Performance
+##  Model Performance
 
 | Model | Accuracy | AUC |
 |---|---|---|
@@ -27,11 +25,21 @@ Stress | Bipolar | Personality Disorder
 
 ---
 
-## Tech Stack
+##  Features
+
+- Single text prediction with confidence chart
+- LIME explainability — see which words drove the prediction
+- Batch prediction via CSV upload
+- Crisis alert for high-risk predictions
+- Interactive probability distribution chart
+
+---
+
+##  Tech Stack
 
 - **Language:** Python 3.10
-- **NLP:** NLTK, TF-IDF Vectorization (8000 features)
-- **ML:** scikit-learn (Logistic Regression)
+- **NLP:** NLTK, TF-IDF Vectorization (8,000 features)
+- **ML:** scikit-learn — Logistic Regression
 - **Sentiment:** VADER
 - **Explainability:** LIME
 - **Frontend:** Streamlit
@@ -39,50 +47,40 @@ Stress | Bipolar | Personality Disorder
 
 ---
 
-## Features
+##  Project Structure
 
-- Single text prediction with confidence chart
-- LIME explainability — see which words drove the prediction
-- Batch prediction via CSV upload
-- Crisis alert system for high-risk predictions
-- Interactive probability distribution chart
-
----
-
-## 📁 Project Structure
-
-mental_health_nlp/
-├── app_v2.py              ← Streamlit web app
-├── requirements.txt       ← Dependencies
-├── notebooks/
-│   └── Mental_Health_NLP_Jupyter.ipynb
-├── model/
-│   ├── best_model.pkl
-│   └── tfidf_vectorizer.pkl
-└── outputs/               ← EDA charts
+    mental_health_nlp/
+    ├── app_v2.py
+    ├── requirements.txt
+    ├── notebooks/
+    │   └── Mental_Health_NLP_Jupyter.ipynb
+    ├── model/
+    │   ├── best_model.pkl
+    │   └── tfidf_vectorizer.pkl
+    ├── outputs/
+    │   └── (EDA charts)
+    └── tableau_export/
+        └── (dashboard CSVs)
 
 ---
 
-## How to run locally
+##  Run Locally
 
-```bash
-git clone https://github.com/yourusername/mindscan-ai
-cd mindscan-ai
-pip install -r requirements.txt
-streamlit run app_v2.py
-```
+    git clone https://github.com/prajna-05/mindscan-ai
+    cd mindscan-ai
+    pip install -r requirements.txt
+    streamlit run app_v2.py
 
 ---
 
-## Dataset
+##  Dataset
 
-Kaggle — Sentiment Analysis for Mental Health  
+Kaggle — Sentiment Analysis for Mental Health
 53,043 Reddit posts across 7 mental health categories
 
 ---
 
-## Disclaimer
+##  Disclaimer
 
-This app is for research purposes only. 
+This app is for research purposes only.
 Not a substitute for professional mental health diagnosis.
-
